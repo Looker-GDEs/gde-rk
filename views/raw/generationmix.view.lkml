@@ -1,4 +1,4 @@
-view: generationmix {
+view: raw_generationmix {
   sql_table_name: `looker-gde-instance.generation_mix.generation-mix` ;;
 
   dimension: biomass {
