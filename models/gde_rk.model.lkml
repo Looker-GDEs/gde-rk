@@ -37,7 +37,7 @@ explore: generationmix {
 
   # Default time filter so queries don't accidentally full-scan
   always_filter: {
-    filters: [generationmix.datetime_date: "last 90 days"]
+    filters: [generationmix.datetime_utc_raw: "last 90 days"]
   }
 
   # Suggested field sets for quick exploration ----------------
